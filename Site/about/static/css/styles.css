@@ -2,6 +2,7 @@ body{
     font-family:'Roboto', sans-serif;
     margin:0;
     padding:0;
+    display:flex;
 }
 *{
     margin:0;
@@ -58,7 +59,7 @@ label #btn, label #cancelar{
 }
 label #btn{
     left:40px;
-    top:25px;
+    /*top:5px;*/
     font-size:35px;
     color: white;
     padding: 6px 12px;
@@ -67,7 +68,7 @@ label #btn{
 label #cancelar{
     z-index:1111;
     left:-195px;
-    top:25px;
+    /*top:8px;*/
     font-size: 30px;
     color:white;
     padding:4px 9px;
