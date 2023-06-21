@@ -1,6 +1,4 @@
-.fs-5 d-none d-sm-inline{
-    color: blue;
-}
+
 /*
 .container-fluid {
     padding: 0;
@@ -21,7 +19,7 @@
     color: #333;
     letter-spacing:1px;
 }
-
+*/
 footer {
     background-color: #333;
     height: 300px;
@@ -33,4 +31,3 @@ footer p{
     top: 50%;
     position: relative;
 }
-*/
