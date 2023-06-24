@@ -22,3 +22,11 @@ def problemas(request):
     return render(request, 'home/problemas.html')
 def Tipos(request):
     return render(request, 'home/Tipos.html')
+def seguranca(request):
+    return render(request, 'home/seguranca.html')
+
+def perguntas(request):
+    return render(request, 'home/perguntas.html')
+def conclusao(request):
+    return render(request, 'home/conclusao.html')
+

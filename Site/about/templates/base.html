@@ -22,16 +22,22 @@
             RFID
         </header>
         <ul>
-            <li> <a href="/"> <i class="bi bi-house"></i> Inicio</a></li>
+            <li> <a href="objetivo"> <i class="bi bi-house"></i> Inicio</a></li>
             <li> <a href="{% url 'historia' %}"> <i class="bi bi-body-text"></i> Historia </a></li>
             <li> <a href="{% url 'funcionamento' %}"> <i class="bi bi-body-text"></i> Como funciona ? </a></li>
             <li> <a href="{% url 'aplicacoes' %}"> <i class="bi bi-body-text"></i> Aplicações</a></li>
             <li> <a href="{% url 'problemas' %}"> <i class="bi bi-body-text"></i> Problemas </a></li>
-            <li> <a href="#"> <i class="bi bi-patch-question"></i> Perguntas e respostas</a></li>
-            <li> <a href="#"> <i class="bi bi-body-text"></i> Conclusão </a></li>
+            <li> <a href="{% url 'tipos' %}"> <i class="bi bi-body-text"></i> Tipos </a></li>
+            <li> <a href="{% url 'seguranca' %}"> <i class="bi bi-lock"></i> Segurança </a></li>
+            <li> <a href="{% url 'perguntas' %}"> <i class="bi bi-patch-question"></i> Perguntas e respostas</a></li>
+            <li> <a href="{% url 'conclusao' %}"> <i class="bi bi-body-text"></i> Conclusão </a></li>
         </ul>
     </div>
+
     <div>
+        <p> </p>
+        <p> </p>
+        <p> </p>
         {% block content %}
         {% endblock %}
     </div>
