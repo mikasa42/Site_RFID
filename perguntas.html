@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RFID</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="bi bi-list" id="btn"></i>
+        <i class="bi bi-x" id="cancelar"></i>
+    </label>
+    <div class="sidebar">
+        <header>
+            RFID
+        </header>
+        <ul>
+            <li> <a href="index.html"> <i class="bi bi-house"></i> Inicio</a></li>
+            <li> <a href="historia.html"> <i class="bi bi-body-text"></i> Historia </a></li>
+            <li> <a href="objetivo.html"> <i class="bi bi-body-text"></i> Objetivo</a></li>
+            <li> <a href="funcionamento.html"> <i class="bi bi-body-text"></i> Como funciona ? </a></li>
+            <li> <a href="aplicacoes.html"> <i class="bi bi-body-text"></i> Aplicações</a></li>
+            <li> <a href="problemas.html"> <i class="bi bi-body-text"></i> Problemas </a></li>
+            <li> <a href="Tipos.html"> <i class="bi bi-body-text"></i> Tipos </a></li>
+            <li> <a href="seguranca.html"> <i class="bi bi-lock"></i> Segurança </a></li>
+            <li> <a href="perguntas.html"> <i class="bi bi-patch-question"></i> Perguntas e respostas</a></li>
+            <li> <a href="conclusao.html"> <i class="bi bi-body-text"></i> Conclusão </a></li>
+        </ul>
+    </div>
+
+    <div class="corpo">
+
+        <h1></h1>
+        <h3>Quais as  principais diferenças entre etiquetas ativas e passivas?</h3>
+        <h4>Etiquetas RFID passivas:
+        </h4>
+        <p>Obtêm energia do campo eletromagnético gerado pelo leitor RFID.
+        </p>
+        <p>Não possuem uma fonte de energia interna, dependendo completamente do campo do leitor para ativar e operar.</p>
+        <p>Têm um alcance de leitura mais curto em comparação com etiquetas RFID ativas.</p>
+        <p>São menores e mais leves, tornando-as adequadas para aplicações onde o tamanho e o peso são importantes.</p>
+        <p>Têm custo mais baixo em comparação com as etiquetas RFID ativas.</p>
+        
+        <h4>Etiquetas RFID ativas:
+        </h4>
+        <p>Possuem uma fonte de energia interna, como uma bateria, que fornece energia para o funcionamento da etiqueta.</p>
+        <p>Podem gerar um sinal de maior potência, permitindo um alcance de leitura mais longo.</p>
+        <p>São geralmente maiores e mais pesadas devido à presença da bateria.</p>
+        <P>Tendem a ser mais caras em comparação com as etiquetas RFID passivas, devido aos componentes adicionais e à bateria.</P>
+
+        <h3>Como um sistema baseado em RFID funciona?</h3>
+        <p>Um sistema RFID consiste em um dispositivo de leitura (transmissor/receptor) e uma etiqueta (tag), ambos equipados com antenas que permitem a comunicação entre si. O dispositivo de leitura cria um campo eletromagnético que é recebido pela antena da etiqueta quando esta entra na área de alcance do campo magnético. Esse campo eletromagnético irá gerar uma corrente induzida, que é necessária para fornecer energia ao circuito interno da etiqueta (no caso passivo). O microchip dentro da etiqueta processa as ondas recebidas e emite outras ondas como resposta. Essas ondas de resposta são então captadas pelo leitor/transmissor e interpretadas pelo seu processador.</p>
+      
+        <h3> Como uma etiqueta passiva obtém energia para alimentar seu microchip interno?</h3>
+        <p>Através de um fenômeno chamado "indução eletromagnética". Quando a etiqueta entra na área de alcance do campo eletromagnético gerado pelo leitor RFID, ocorre uma transferência de energia por meio do acoplamento indutivo. O campo eletromagnético oscilante do leitor induz uma corrente elétrica na antena da etiqueta, que por sua vez é usada para alimentar o circuito interno da etiqueta, incluindo o microchip. Dessa forma, a etiqueta passiva não requer uma fonte de energia externa, mas sim aproveitar a energia fornecida pelo leitor RFID para ativar e operar o microchip interno.</p>
+    
+
+
+        <h3>Como a tecnologia RFID poderia ser usada para organizar feiras e eventos?</h3>
+        <p> Ela pode ser usada no controle de acesso e identificação, rastreamento de produtos e coleta e análise de dados de participação.</p>
+        <p> 1.Controle de acesso e identificação: Tags RFID podem ser usadas em crachás para fazer o registro dos participantes, autorizar seu acesso a certas áreas e rastrear sua presença para entender as preferências do seu público. O uso das tags também agiliza a entrada das pessoas e pode ser usada para organizar filas, atribuindo a cada pessoa uma senha virtual.</p>
+        <p> 2.Rastreamento de produtos: Em eventos com estandes de exposição, as tags RFID podem ser anexadas a produtos promocionais, permitindo rastrear o interesse dos participantes e coletar dados valiosos sobre as preferências dos visitantes.</p>
+        <p> 3.Interação personalizada: A tecnologia RFID pode promover interações personalizadas com os participantes ao ler as informações presentes nas tags que carregam. Seria possível mostrar informações relevantes, ofertas especiais ou convites para sessões específicas.
+        </p>
+        <p> 4.Coleta e análise de dados: Os dados coletados pelas tags poderiam ser usados para melhorar a organização futura do evento. Informações como o tempo que os participantes passaram em cada seção, as áreas mais visitadas e padrões de motivação poderiam ser usados para otimizar a experiência do usuário em um outro evento.</p>
+        <h3>Quais os impactos sociais negativos das tecnologias RFID?</h3>
+        <p> Além das preocupações com a privacidade e vigilância excessiva que levam a sensação de invasão de privacidade, a tecnologia RFID pode causar a perda de empregos, visto que ela é capaz de automatizar diversos processos logísticos de industrias, armazéns, lojas e supermercados, afetando os trabalhadores que desempenham essas funções. Além disso, a dependência excessiva de uma tecnologia pode tornar os processos e pessoas vulneráveis a falhas e interrupções do sistema, como em casos de falta de energia ou mal funcionamento.</p>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
+  
+  </body>
+  </html>

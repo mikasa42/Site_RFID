@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RFID</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="bi bi-list" id="btn"></i>
+        <i class="bi bi-x" id="cancelar"></i>
+    </label>
+    <div class="sidebar">
+        <header>
+            RFID
+        </header>
+        <ul>
+            <li> <a href="index.html"> <i class="bi bi-house"></i> Inicio</a></li>
+            <li> <a href="historia.html"> <i class="bi bi-body-text"></i> Historia </a></li>
+            <li> <a href="objetivo.html"> <i class="bi bi-body-text"></i> Objetivo</a></li>
+            <li> <a href="funcionamento.html"> <i class="bi bi-body-text"></i> Como funciona ? </a></li>
+            <li> <a href="aplicacoes.html"> <i class="bi bi-body-text"></i> Aplicações</a></li>
+            <li> <a href="problemas.html"> <i class="bi bi-body-text"></i> Problemas </a></li>
+            <li> <a href="Tipos.html"> <i class="bi bi-body-text"></i> Tipos </a></li>
+            <li> <a href="seguranca.html"> <i class="bi bi-lock"></i> Segurança </a></li>
+            <li> <a href="perguntas.html"> <i class="bi bi-patch-question"></i> Perguntas e respostas</a></li>
+            <li> <a href="conclusao.html"> <i class="bi bi-body-text"></i> Conclusão </a></li>
+        </ul>
+    </div>
+
+    <div class="corpo">
+
+        <h1> Tipos </h1>
+        <p>
+            Os sistemas de RFID também podem ser definidos pela faixa de frequência em que operam:
+        </p>
+        <p></p>
+        <img src="static/img/tipos1.png">
+        <p></p>
+        <a href="https://www.gta.ufrj.br/ensino/eel878/redes1-2019-1/vf/rfid/">Disponível em:</a>
+        <h3>Sistemas de Média e Alta Frequência:</h3>
+        <p>
+            Para curta distância de leitura e baixos custos. Normalmente utilizado para controle de acesso, localização e identificação.
+        </p>
+        <img src="static/img/tipos2.png">
+        <p></p>
+        <a href="https://stock.adobe.com/br/templates/credit-card-and-pos-terminal-mockup/187062160">Disponível em:</a>
+        <h3>
+            Sistemas de Ultra Alta Frequência :
+        </h3>
+        <p>
+            Para leitura em médias ou longas distâncias e leituras em
+        alta velocidade. Normalmente utilizados para leitura de tags em veículos ou recolha automática de
+        dados numa sequência de objectos em movimento. Um exemplo de aplicação é a via verde,
+        sistema de pagamento electrónico da BRISA, Auto-estradas de Portugal.
+        </p>
+        <img src="static/img/tipos3.png">
+        <p></p>
+        <a href="https://www.researchgate.net/figure/Funcionamento-do-sistema-RFID-em-pracas-de-pedagio_fig2_306012292">Disponível em:</a>
+        <h2>Protocolos de comunicação RFID comuns para cada faixa</h2>
+        <h3>RFID de Frequência Baixa (LF):
+        </h3>
+        <p>Frequência de operação: 125 kHz ou 134 kHz.</p>
+        <p>Alcance curto: geralmente, de 10 cm a 1 metro.</p>
+        <p>Comunicação indutiva: utiliza campos eletromagnéticos para transferir dados.</p>
+        <p>Protocolo comum: ISO 18000-2 (Também conhecido como EM4102).
+        </p>
+
+        <h3>RFID de Frequência Alta (HF): (LF):
+        </h3>
+        <p>Frequência de operação: 13,56 MHz.</p>
+        <p>Alcance médio: geralmente, de 1 metro a 1,5 metro.</p>
+        <p>Comunicação por acoplamento eletromagnético: utiliza campos elétricos e magnéticos para transferir dados.
+        </p>
+        <p>Protocolos comuns: ISO 14443 (usado em cartões inteligentes e pagamentos sem contato) e ISO 15693 (usado em identificação de objetos e controle de acesso).
+        </p>
+
+        <h3>RFID de Frequência Ultra Alta (UHF):
+        </h3>
+        <p>Frequência de operação: 860 MHz a 960 MHz.</p>
+        <p>Alcance longo: pode chegar a vários metros, dependendo da antena e das condições de operação.</p>
+        <p>Comunicação por ondas de rádio: utiliza modulação de amplitude ou modulação de fase para transmitir dados.
+        </p>
+        <h3>Protocolos comuns: EPC Gen2 (ISO 18000-6C) é o mais amplamente adotado, utilizado em aplicações como logística, rastreamento de ativos e controle de estoque.</h3>
+        <p>Além dos protocolos mencionados, também existem outros padrões de comunicação RFID, como o NFC (Near Field Communication), que opera na frequência de 13,56 MHz e é amplamente utilizado em dispositivos móveis para pagamentos sem contato e compartilhamento de informações em curta distância.
+        </p>
+        <p>Cada protocolo de comunicação RFID tem suas características de alcance, velocidade de leitura/gravação, capacidade de armazenamento e compatibilidade. A escolha do protocolo adequado depende das necessidades específicas da aplicação em questão.</p>
+        <h1>Tabela geral de protocolos RFID (incluindo os de NFC)</h1>
+
+        <table>
+            <tr>
+                <td>Padrão RFID</td>
+                <td>Detalhe</td>
+            </tr>
+            <tr>
+                <td>ISO 10536</td>
+                <td>Padrão ISO RFID para cartões de acoplamento próximo</td>
+            </tr>
+            <tr>
+                <td>ISO 14223</td>
+                <td>Identificação por radiofrequência de animais - Transponder avançado</td>
+            </tr>
+            <tr>
+                <td>ISO 11784</td>
+                <td>Padrão ISO RFID que define a forma como os dados são estruturados em uma tag RFID.</td>
+            </tr>
+            <tr>
+                <td>ISO 11785</td>
+                <td>Padrão ISO RFID que define o protocolo de interface aérea.</td>
+            </tr>
+            <tr>
+                <td>ISO 14443</td>
+                <td>Padrão ISO RFID que fornece as definições para protocolo de interface aérea para etiquetas RFID usadas em sistemas de proximidade - voltado para uso com sistemas de pagamento</td>
+            </tr>
+            <tr>
+                <td>ISO 15459</td>
+                <td>Identificadores únicos para unidades de transporte (usados ​​na gestão da cadeia de abastecimento)</td>
+            </tr>
+            <tr>
+                <td>ISO 15693</td>
+                <td>Padrão ISO RFID para uso com os chamados cartões de proximidade</td>
+            </tr>
+            <tr>
+                <td>ISO 15961</td>
+                <td>Padrão ISO RFID para gerenciamento de itens (inclui interface de aplicativo (parte 1), registro de construções de dados RFID (parte 2) e construções de dados RFID (parte 3).</td>
+            </tr>
+            <tr>
+                <td>ISO 15962</td>
+                <td>Padrão ISO RFID para gerenciamento de itens - regras de codificação de dados e funções de memória lógica.</td>
+            </tr>
+            <tr>
+                <td>ISO 16963</td>
+                <td>Padrão ISO RFID para gerenciamento de itens - identificador exclusivo da etiqueta RF.</td>
+            </tr>
+            <tr>
+                <td>ISO 18000</td>
+                <td>Padrão ISO RFID para a interface aérea para frequências RFID em todo o mundo</td>
+            </tr>
+            <tr>
+                <td>ISO 18001</td>
+                <td>RFID para gerenciamento de itens - perfis de requisitos de aplicação.</td>
+            </tr>
+            <tr>
+                <td>ISO 18046</td>
+                <td>Etiqueta RFID e métodos de teste de desempenho do interrogador.</td>
+            </tr>
+            <tr>
+                <td>ISO 18047</td>
+                <td>O padrão ISO RFID que define os testes, incluindo testes de conformidade de etiquetas e leitores RFID. Ele é dividido em várias partes que refletem as partes da ISO 18000.</td>
+            </tr>
+            <tr>
+                <td>ISO 18185</td>
+                <td>Este é o padrão da indústria para selos eletrônicos ou “e-selos” para rastreamento de contêineres de carga usando as frequências de 433 MHz e 2.4 GHz.</td>
+            </tr>
+            <tr>
+                <td>ISO 18092</td>
+                <td>Tecnologia da informação - Telecomunicações e troca de informações entre sistemas - Near Field Communication - Interface e Protocolo (NFCIP-1)</td>
+            </tr>
+            <tr>
+                <td>ISO 21481</td>
+                <td>Tecnologia da informação - Telecomunicações e troca de informações entre sistemas - Near Field Communication Interface and Protocol -2 (NFCIP-2)</td>
+            </tr>
+            <tr>
+                <td>ISO 24710</td>
+                <td>Tecnologia da informação, identificação automática e técnicas de captura de dados - RFID para gerenciamento de itens - Funcionalidade de placa de licença de etiqueta elementar para interface aérea ISO 18000.</td>
+            </tr>
+            <tr>
+                <td>ISO 24729</td>
+                <td>Diretrizes de implementação de RFID - parte: etiquetas habilitadas para RFID; parte 2: reciclabilidade de etiquetas RF; parte 3: interrogador RFID / instalação da antena.</td>
+            </tr>
+            <tr>
+                <td>ISO 24730</td>
+                <td>Sistema de localização RFID em tempo real: Parte 1: Interface de programação de aplicativo (API); Parte 2: 2.4 GHz; Parte 3: 433 MHz; Parte 4: Sistemas de localização global</td>
+            </tr>
+            <tr>
+                <td>ISO 24752</td>
+                <td>Protocolo de gerenciamento de sistema para identificação automática e captura de dados usando RFID</td>
+            </tr>
+            <tr>
+                <td>ISO 24753</td>
+                <td>Comandos de interface aérea para assistência de bateria e funcionalidade do sensor</td>
+            </tr>
+            <tr>
+                <td>ISO 24769</td>
+                <td>Métodos de teste de conformidade de dispositivo do Sistema de Localização em Tempo Real (RTLS)</td>
+            </tr>
+            <tr>
+                <td>ISO 24770</td>
+                <td>Métodos de teste de desempenho de dispositivo do Sistema de Localização em Tempo Real (RTLS)</td>
+            </tr>
+            <tr>
+                <td>ISO-28560 2</td>
+                <td>Especifica os padrões de codificação e o modelo de dados a serem usados ​​nas bibliotecas</td>
+            </tr>
+            <tr>
+                <td>ASTM D7434</td>
+                <td>Método de teste padrão para determinar o desempenho de transponders de identificação de radiofrequência passiva (RFID) em cargas paletizadas ou unitizadas</td>
+            </tr>
+            <tr>
+                <td>ASTM D7435</td>
+                <td>Método de teste padrão para determinar o desempenho de transponders de identificação de radiofrequência passiva (RFID) em recipientes carregados</td>
+            </tr>
+            <tr>
+                <td>ASTM D7580</td>
+                <td>Método de teste padrão para método de empacotador extensível rotativo para determinar a legibilidade de transponders RFID passivos em cargas homogêneas paletizadas ou unificadas</td>
+            </tr>
+        </table>
+        <a href="https://www.asiarfid.com/pt/common-rfid-standards-and-protocols.html">Disponível em:</a>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+    
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
+  
+  </body>
+  </html>

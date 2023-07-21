@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RFID</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="bi bi-list" id="btn"></i>
+        <i class="bi bi-x" id="cancelar"></i>
+    </label>
+    <div class="sidebar">
+        <header>
+            RFID
+        </header>
+        <ul>
+            <li> <a href="index.html"> <i class="bi bi-house"></i> Inicio</a></li>
+            <li> <a href="historia.html"> <i class="bi bi-body-text"></i> Historia </a></li>
+            <li> <a href="objetivo.html"> <i class="bi bi-body-text"></i> Objetivo</a></li>
+            <li> <a href="funcionamento.html"> <i class="bi bi-body-text"></i> Como funciona ? </a></li>
+            <li> <a href="aplicacoes.html"> <i class="bi bi-body-text"></i> Aplicações</a></li>
+            <li> <a href="problemas.html"> <i class="bi bi-body-text"></i> Problemas </a></li>
+            <li> <a href="Tipos.html"> <i class="bi bi-body-text"></i> Tipos </a></li>
+            <li> <a href="seguranca.html"> <i class="bi bi-lock"></i> Segurança </a></li>
+            <li> <a href="perguntas.html"> <i class="bi bi-patch-question"></i> Perguntas e respostas</a></li>
+            <li> <a href="conclusao.html"> <i class="bi bi-body-text"></i> Conclusão </a></li>
+        </ul>
+    </div>
+
+<div class="corpo">
+
+
+        <h1> Funcionamento </h1>
+        <h3>
+            Identificação por radiofrequência ou RFID
+        </h3>
+        <p>
+        (do inglês "Radio-Frequency IDentification") é um método de identificação automática através de sinais de rádio, recuperando e armazenando dados remotamente através de dispositivos denominados etiquetas RFID.
+        </p>
+        <h3>Uma etiqueta ou tag RFID</h3>
+        <p>
+            é um transponder, um pequeno objeto que pode ser colocado em uma pessoa, animal, equipamento, embalagem, produto, dentre outros. Contém chips de silício e antenas que lhe permitem responder aos sinais de rádio enviados por uma base transmissora. Essa tecnologia viabiliza tal comunicação de dados através da passagem de sinal por um campo de indução. Além das etiquetas passivas, que respondem ao sinal enviado pela base transmissora, existem ainda as etiquetas ativas, dotadas de bateria, que lhes permite enviar o próprio sinal. São bem mais caras do que as etiquetas passivas, além de serem maiores e mais pesadas. Além disso, as etiquetas passivas possuem um alcance menor do que as ativas, devido a potência.
+        </p>
+        <img src="static/img/funcionamento1.png">
+        <p></p>
+        <a href="https://www.researchgate.net/figure/a-Active-and-b-passive-RFID-tag-Semi-active-tags-Although-they-have-their-own-power_fig3_308167938">Disponível em:</a>
+        <p></p>
+        <img src="static/img/funcionamento2.png">
+        <p></p>
+        <a href="https://i3csolucoes.com.br/o-que-sao-etiquetas-tags-rfid/">Disponível em:</a>
+        <p></p>
+        <img src="static/img/funcionamento3.png">
+        <p></p>
+        <a href="https://i3csolucoes.com.br/o-que-sao-etiquetas-tags-rfid/">Disponível em:</a>
+        <p></p>
+
+        <h2>Processo de comunicação:</h2>
+        <h3>Transmissão do sinal do leitor:</h3>
+        <p>
+            Quando o leitor RFID é ativado, ele gera um sinal de radiofrequência através de sua antena. Esse sinal é composto por ondas eletromagnéticas que se propagam pelo espaço. A frequência do sinal varia de acordo com o padrão utilizado (por exemplo, 125 kHz, 13,56 MHz ou 900 MHz ou até mesmo GHz).
+        </p>
+        <p></p>
+        <img src="static/img/funcionamento4.png">
+        <p></p>
+        <a href="https://circuitdigest.com/microcontroller-projects/interfacing-rfid-reader-module-with-arduino">Disponível em:</a>
+        <p></p>
+        <img src="static/img/funcionamento5.png">
+        <p></p>
+        <a href="https://circuitdigest.com/microcontroller-projects/interfacing-rfid-reader-module-with-arduino">Disponível em:</a>
+        <p></p>
+        <h3>Recebimento do sinal pela antena da etiqueta:</h3>
+        <p>
+            Quando uma etiqueta RFID está dentro do alcance do sinal do leitor, a antena da etiqueta capta o sinal de radiofrequência. Essa antena também atua como uma antena de recepção e é projetada para ressonar na frequência específica do sinal do leitor.
+        </p>
+        <p></p>
+        <img src="static/img/funcionamento6.png">
+        <p></p>
+        <a href="https://newaverfid.com/experts-corner/rfid-reader-antenna-basics-optimizing-tag-selection-deployment">Disponível em:</a>
+        <p></p>
+        <img src="static/img/funcionamento7.png">
+        <p></p>
+        <a href="https://www.comsol.de/blogs/rfid-tag-read-range-antenna-optimization/">Disponível em:</a>
+        <p></p>
+        <h3>Alimentação da etiqueta RFID: </h3>
+        <p>
+            Nas etiquetas RFID passivas, a antena recebe energia do sinal do leitor. Quando o sinal de radiofrequência chega à antena da etiqueta, ocorre um fenômeno chamado acoplamento indutivo. O campo magnético do sinal induz uma corrente elétrica na antena da etiqueta, fornecendo energia para a etiqueta funcionar.
+        </p>
+        <p></p>
+        <img src="static/img/funcionamento8.png">
+        <p></p>
+        <a href="https://www.gta.ufrj.br/grad/07_1/rfid/RFID_arquivos/como%20funciona.htm/">Disponível em:</a>
+        <h3>Transmissão dos dados pela etiqueta:</h3>
+        <p>
+            Com a energia fornecida, o microchip na etiqueta RFID é ativado. Ele começa a modular a corrente elétrica da antena para transmitir os dados armazenados na memória da etiqueta. Isso é feito por meio de um processo chamado modulação de amplitude (AM) ou modulação de fase (PM), dependendo da tecnologia utilizada.
+
+        </p>
+        <h3>Recebimento dos dados pelo leitor: </h3>
+        <p>
+            A antena do leitor RFID capta a modulação do sinal transmitido pela etiqueta. Essa modulação é uma variação no campo magnético do sinal de radiofrequência recebido. O leitor converte essas variações em sinais elétricos correspondentes aos dados transmitidos pela etiqueta.
+
+        </p>
+        <p></p>
+        <img src="static/img/funcionamento9.png">
+        <p></p>
+        <a href="https://www.gta.ufrj.br/ensino/eel878/redes1-2019-1/vf/rfid/">Disponível em:</a>
+        <h3>Processamento dos dados:</h3>
+        <p>
+            O leitor RFID envia os sinais elétricos dos dados recebidos para a unidade de controle. Essa unidade é responsável por decodificar e processar as informações, como o número de série da etiqueta ou outros dados específicos armazenados nela.
+
+        </p>
+        <p></p>
+        <img src="static/img/funcionamento10.png">
+        <p></p>
+        <a href="https://embarcados.com.br/arduino-mega-2560/">Disponível em:</a>
+        <h3> Interação com o sistema de software:</h3>
+        <p>
+            O sistema de software conectado ao leitor RFID recebe os dados processados e realiza as ações desejadas com base nessas informações. Isso pode incluir atualização de inventários, acionamento de alarmes, autenticação de produtos, entre outras funcionalidades.
+        </p>
+        <p></p>
+        <img src="static/img/funcionamento11.png">
+        <p></p>
+        <a href="https://circuitdigest.com/microcontroller-projects/interfacing-rfid-reader-module-with-arduino">Disponível em:</a>
+        <p>
+            Em resumo, a comunicação no sistema RFID ocorre através da transmissão de um sinal de radiofrequência pelo leitor, o recebimento e a alimentação da etiqueta RFID pela energia do sinal, a transmissão dos dados pela etiqueta modulando a corrente elétrica da antena, o recebimento e processamento dos dados pelo leitor, e a interação com o sistema de software para a utilização das informações coletadas de acordo com uma lógica de controle para es.
+        </p>
+        <p> Uma observação é que tecnologias que utilizam faixas de frequências maiores, se beneficiam do tamanho reduzido de antena, já que as ondas irão possuir comprimento de onda menores, sendo interessante para aplicações que requerem pequenas escalas. Por exemplo, uma antena que funciona na faixa de 60GHz, possui tamanho de cerca de 22 micrômetros, podendo caber em uma célula humana.</p>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
+  
+  </body>
+  </html>

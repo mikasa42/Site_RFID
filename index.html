@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RFID</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="bi bi-list" id="btn"></i>
+        <i class="bi bi-x" id="cancelar"></i>
+    </label>
+    <div class="sidebar">
+        <header>
+            RFID
+        </header>
+        <ul>
+            <li> <a href="index.html"> <i class="bi bi-house"></i> Inicio</a></li>
+            <li> <a href="historia.html"> <i class="bi bi-body-text"></i> Historia </a></li>
+            <li> <a href="objetivo.html"> <i class="bi bi-body-text"></i> Objetivo</a></li>
+            <li> <a href="funcionamento.html"> <i class="bi bi-body-text"></i> Como funciona ? </a></li>
+            <li> <a href="aplicacoes.html"> <i class="bi bi-body-text"></i> Aplicações</a></li>
+            <li> <a href="problemas.html"> <i class="bi bi-body-text"></i> Problemas </a></li>
+            <li> <a href="Tipos.html"> <i class="bi bi-body-text"></i> Tipos </a></li>
+            <li> <a href="seguranca.html"> <i class="bi bi-lock"></i> Segurança </a></li>
+            <li> <a href="perguntas.html"> <i class="bi bi-patch-question"></i> Perguntas e respostas</a></li>
+            <li> <a href="conclusao.html"> <i class="bi bi-body-text"></i> Conclusão </a></li>
+        </ul>
+    </div>
+
+    <div class="corpo">
+
+        <div>
+            <h1>
+                Introdução
+            </h1>
+            <p>
+                RFID (Radio Frequency Identification) é uma tecnologia que permite a identificação e o rastreamento de objetos por meio de sinais de rádio. É composta por três elementos principais: tags RFID, leitores e um sistema de software.
+            </p>
+            <p>
+                As tags RFID são dispositivos eletrônicos que contêm um microchip e uma antena. Elas podem ser classificadas em duas categorias: tags ativas e tags passivas. As tags ativas possuem sua própria fonte de energia e podem transmitir sinais de forma autônoma. Já as tags passivas não têm energia própria e dependem da energia fornecida pelos leitores RFID para transmitir seus dados.
+            </p>
+            <p>
+                Os leitores RFID são dispositivos que emitem sinais de rádio e recebem respostas das tags RFID. Eles têm antenas que permitem a comunicação com as tags e são conectados a um sistema de processamento de dados. Os leitores enviam comandos para as tags e recebem as informações armazenadas nelas.
+            </p>
+            <p>
+                O sistema de software é responsável por processar e armazenar as informações coletadas pelas tags RFID. Pode incluir bancos de dados, aplicativos de gerenciamento e interfaces de usuário para acesso e análise dos dados coletados.
+
+            </p>
+            
+            
+            <p>
+                A tecnologia RFID tem várias aplicações em diversos setores. Por exemplo, no varejo, as tags RFID podem ser usadas para rastrear inventário em tempo real, melhorar a precisão do estoque e agilizar o processo de checkout. Na indústria manufatureira, as tags podem ser utilizadas para rastrear componentes e otimizar a cadeia de suprimentos. Na área de saúde, as tags RFID podem ser aplicadas para rastrear equipamentos médicos, identificar pacientes e controlar o acesso a áreas restritas.
+            </p>
+            <p>
+                As vantagens da tecnologia RFID incluem a capacidade de identificar e rastrear itens de forma rápida e precisa, mesmo a longas distâncias e em grandes volumes. Além disso, as tags RFID podem ser usadas em condições adversas, como ambientes úmidos ou sujos, e podem armazenar uma grande quantidade de dados.
+            </p>
+            <p>
+                No entanto, também existem desafios associados à implementação do RFID, como o custo das tags e leitores, a necessidade de infraestrutura adequada e a preocupação com a privacidade e segurança dos dados coletados pelas tags.
+            </p>
+            <p>
+                No geral, a tecnologia RFID tem o potencial de trazer benefícios significativos em termos de eficiência, rastreabilidade e automação em diversos setores, tornando-se uma ferramenta importante para a gestão de informações e ativos.
+            </p>
+        
+        </div>
+                
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
+  
+  </body>
+  </html>
